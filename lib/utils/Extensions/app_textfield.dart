@@ -50,6 +50,7 @@ class AppTextField extends StatefulWidget {
   final String? obscuringCharacter;
   final String? initialValue;
   final Brightness? keyboardAppearance;
+  // ignore: deprecated_member_use
   final ToolbarOptions? toolbarOptions;
 
   final String? errorThisFieldRequired;
@@ -264,6 +265,7 @@ class _AppTextFieldState extends State<AppTextField> {
       obscuringCharacter: widget.obscuringCharacter.validate(value: '•'),
       initialValue: widget.initialValue,
       keyboardAppearance: widget.keyboardAppearance,
+      // ignore: deprecated_member_use
       toolbarOptions: widget.toolbarOptions,
     );
   }

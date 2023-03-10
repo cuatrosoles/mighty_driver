@@ -17,6 +17,7 @@ import '../utils/Extensions/app_common.dart';
 import '../utils/Extensions/app_textfield.dart';
 import 'TermsConditionScreen.dart';
 
+//ignore: must_be_immutable
 class DriverRegisterScreen extends StatefulWidget {
   bool socialLogin;
   String? userName;

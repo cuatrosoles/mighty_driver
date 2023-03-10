@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:taxi_driver/utils/Extensions/StringExtensions.dart';
+// ignore: unused_import
 import 'package:url_launcher/url_launcher.dart';
 
 import '../main.dart';
@@ -8,6 +9,7 @@ import '../model/UserDetailModel.dart';
 import '../network/RestApis.dart';
 import '../utils/Colors.dart';
 import '../utils/Common.dart';
+// ignore: unused_import
 import '../utils/Constants.dart';
 import '../utils/Extensions/app_common.dart';
 

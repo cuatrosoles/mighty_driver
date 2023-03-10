@@ -71,6 +71,7 @@ Future<LoginResponse> signUpApi(Map request) async {
     return loginResponse;
   }).catchError((e) {
     log(e.toString());
+    return (e);
   });
 }
 
@@ -392,7 +393,7 @@ Future updateProfileUid() async {
 
   await sendMultiPartRequest(multiPartRequest, onSuccess: (data) async {
     if (data != null) {
-      LoginResponse res = LoginResponse.fromJson(data);
+      ///LoginResponse res = LoginResponse.fromJson(data);
       //
     }
   }, onError: (error) {

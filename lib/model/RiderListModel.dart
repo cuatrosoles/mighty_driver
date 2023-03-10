@@ -1,5 +1,6 @@
 import 'package:taxi_driver/model/PaginationModel.dart';
 
+// ignore: unused_import
 import 'CouponData.dart';
 import 'RiderModel.dart';
 

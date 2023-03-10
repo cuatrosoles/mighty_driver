@@ -3,8 +3,10 @@ import 'package:taxi_driver/model/PaginationModel.dart';
 class WithDrawListModel {
   List<WithDrawModel>? data;
   PaginationModel? pagination;
+  // ignore: non_constant_identifier_names
   WalletBalance? wallet_balance;
 
+  // ignore: non_constant_identifier_names
   WithDrawListModel({this.data, this.pagination, this.wallet_balance});
 
   factory WithDrawListModel.fromJson(Map<String, dynamic> json) {
@@ -32,22 +34,30 @@ class WithDrawListModel {
 
 class WithDrawModel {
   num? amount;
+  // ignore: non_constant_identifier_names
   String? created_at;
   String? currency;
   int? id;
   int? status;
+  // ignore: non_constant_identifier_names
   String? updated_at;
+  // ignore: non_constant_identifier_names
   String? user_display_name;
+  // ignore: non_constant_identifier_names
   int? user_id;
 
   WithDrawModel({
     this.amount,
+    // ignore: non_constant_identifier_names
     this.created_at,
     this.currency,
     this.id,
     this.status,
+    // ignore: non_constant_identifier_names
     this.updated_at,
+    // ignore: non_constant_identifier_names
     this.user_display_name,
+    // ignore: non_constant_identifier_names
     this.user_id,
   });
 

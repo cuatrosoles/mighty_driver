@@ -323,6 +323,7 @@ Future<bool?> showConfirmDialogCustom(
                           onCancel?.call(_);
                         },
                         style: TextButton.styleFrom(
+                          // ignore: deprecated_member_use
                           primary: Theme.of(context).scaffoldBackgroundColor,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(defaultRadius),
@@ -357,6 +358,7 @@ Future<bool?> showConfirmDialogCustom(
                           if (cancelable) Navigator.pop(context, true);
                         },
                         style: TextButton.styleFrom(
+                          // ignore: deprecated_member_use
                           primary: Colors.white,
                           backgroundColor: getDialogPrimaryColor(_, dialogType, primaryColor),
                           shape: RoundedRectangleBorder(

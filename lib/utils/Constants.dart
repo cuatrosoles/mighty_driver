@@ -3,21 +3,21 @@ import 'package:mqtt_client/mqtt_server_client.dart';
 
 import '../main.dart';
 
-const mAppName = 'ADD_YOUR_APP_NAME';
+const mAppName = 'Navi Driver';
 var errorThisFieldRequired = 'This field is required';
 
-const googleMapAPIKey = 'ADD_YOUR_GOOGLE_MAP_KEY';
+const googleMapAPIKey = 'AIzaSyBPMkfHdJkfAQBF2NXzNwKxUrcaUxgJyM4';
 
-const DOMAIN_URL = 'ADD_YOUR_DOMAIN_URL'; // Don't add slash at the end of the url
+const DOMAIN_URL = 'https://navi.enterprises'; // Don't add slash at the end of the url
 const mBaseUrl = "$DOMAIN_URL/api/";
 
-final client = MqttServerClient.withPort("YOUR_MQTT_URL", "", 1883);
+final client = MqttServerClient.withPort("broker.hivemq.com", "", 1883);
 
-const mOneSignalAppIdRider = 'ADD_YOUR_RIDER_OneSignalApp';
-const mOneSignalRestKeyRider = 'ADD_YOUR_RIDER_OneSignalRestKey';;
+const mOneSignalAppIdRider = 'a520f065-0d19-4cc0-9a8b-f355d36e6f54';
+const mOneSignalRestKeyRider = 'MzM1NjRkN2ItZDgyMS00MmJhLWI5MTEtYTk4MGFlNWJmNjRh';
 
-const mOneSignalAppIdDriver = 'ADD_YOUR_DRIVER_OneSignalApp';
-const mOneSignalRestKeyDriver = 'ADD_YOUR_DRIVER_OneSignalRestKey';
+const mOneSignalAppIdDriver = '8b2851e5-b632-459f-b0b8-7feba8109248';
+const mOneSignalRestKeyDriver = 'ZDZmNjg2ZTAtNjU4Ni00ZTE1LTg3YzUtYmY4MmU1MjQ1NjNj';
 
 
 const PRESENT_TOP_UP_AMOUNT_CONST = '10|20|30';
@@ -51,7 +51,7 @@ const LoginTypeApple = 'apple';
 
 const currencySymbol = '\$';
 const currencyNameConst = 'usd';
-const defaultCountryCode = '+91';
+const defaultCountryCode = '+506';
 const digitAfterDecimal = 2;
 
 /// SharedReference keys
@@ -204,8 +204,8 @@ String printAmount(String amount) {
 }
 
 
-const PDF_NAME = 'Mighty Taxi  Private Limited';
-const PDF_ADDRESS = 'Sarah Street 9, Beijing, Ahmedabad';
-const PDF_CONTACT_NUMBER = '+91 7600712311';
+const PDF_NAME = 'Navi Enterprises  Private Limited';
+const PDF_ADDRESS = 'Sarah Street 9, San Jose, Costa Rica';
+const PDF_CONTACT_NUMBER = '+506 7652311';
 
 var errorSomethingWentWrong = 'Something Went Wrong';

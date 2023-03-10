@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:taxi_driver/components/OTPDialog.dart';
 import 'package:taxi_driver/model/UserDetailModel.dart';
@@ -13,6 +14,7 @@ import 'package:taxi_driver/utils/Extensions/StringExtensions.dart';
 import '../main.dart';
 import '../model/LoginResponse.dart';
 import '../network/RestApis.dart';
+// ignore: unused_import
 import '../screens/DriverRegisterScreen.dart';
 import '../utils/Constants.dart';
 import '../utils/Extensions/app_common.dart';

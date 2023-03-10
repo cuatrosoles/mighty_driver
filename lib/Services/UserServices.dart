@@ -6,6 +6,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:path/path.dart';
 import 'package:taxi_driver/utils/Extensions/StringExtensions.dart';
 import '../main.dart';
+// ignore: unused_import
 import '../model/LoginResponse.dart';
 import '../model/UserDetailModel.dart';
 import '../utils/Constants.dart';

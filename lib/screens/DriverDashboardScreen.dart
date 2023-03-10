@@ -59,6 +59,7 @@ class DriverDashboardScreenState extends State<DriverDashboardScreen> {
 
   Completer<GoogleMapController> _controller = Completer();
   OtpFieldController otpController = OtpFieldController();
+  // ignore: cancel_subscriptions
   late StreamSubscription<ServiceStatus> serviceStatusStream;
 
   List<RiderModel> riderList = [];
@@ -1378,6 +1379,7 @@ class DriverDashboardScreenState extends State<DriverDashboardScreen> {
                                                 negativeText: language.no, onAccept: (v) {
                                               appStore.setLoading(true);
                                               getUserLocation().then((value) async {
+                                                // ignore: await_only_futures
                                                 totalDistance = await calculateDistance(double.parse(servicesListData!.startLatitude.validate()),
                                                     double.parse(servicesListData!.startLongitude.validate()), driverLocation!.latitude, driverLocation!.longitude);
                                                 await completeRideRequest();

@@ -147,7 +147,7 @@ class ChatMessageService extends BaseService {
       });
 
       return _batch.commit();
-    }).catchError(log);
+    }).catchError((Object error) => 0);
   }
 
   Future<void> deleteChat({String? senderId, required String receiverId}) async {

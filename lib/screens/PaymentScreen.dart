@@ -216,6 +216,7 @@ class PaymentScreenState extends State<PaymentScreen> {
               setupIntentClientSecret: res.clientSecret.validate(),
             ),
           );
+          // ignore: deprecated_member_use
           await Stripe.instance.presentPaymentSheet(parameters: PresentPaymentSheetParameters(clientSecret: res.clientSecret!, confirmPayment: true)).then(
             (value) async {
               paymentConfirm();
@@ -265,6 +266,7 @@ class PaymentScreenState extends State<PaymentScreen> {
     try {
       CheckoutResponse response = await plugin.checkout(context, method: method, charge: charge, fullscreen: false);
       payStackUpdateStatus(response.reference, response.message);
+      // ignore: unused_local_variable
       Map<String, dynamic> req = {
         "status": response.status.toString(),
         "card": {
@@ -315,6 +317,7 @@ class PaymentScreenState extends State<PaymentScreen> {
       request,
     );
     if (result != null) {
+      // ignore: unused_local_variable
       var request = <String, String?>{
         "txn_id": result.nonce,
         "description": result.description,
@@ -342,6 +345,7 @@ class PaymentScreenState extends State<PaymentScreen> {
     );
     final ChargeResponse response = await flutterwave.charge();
     if (response.status == 'successful') {
+      // ignore: unused_local_variable
       Map<String, dynamic> req = {
         "txn_id": response.transactionId.toString(),
         "status": response.status.toString(),
@@ -566,6 +570,7 @@ class PaymentScreenState extends State<PaymentScreen> {
               spacing: 16,
               runSpacing: 16,
               children: paymentList.map((e) {
+                // ignore: unused_local_variable
                 int index = paymentList.indexOf(e);
                 return inkWellWidget(
                   onTap: () {
