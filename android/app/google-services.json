@@ -1,58 +1,50 @@
 {
   "project_info": {
-    "project_number": "522987428134",
-    "project_id": "taxi-booking-810bf",
-    "storage_bucket": "taxi-booking-810bf.appspot.com"
+    "project_number": "468871559624",
+    "firebase_url": "https://naviapp-ca400-default-rtdb.firebaseio.com",
+    "project_id": "naviapp-ca400",
+    "storage_bucket": "naviapp-ca400.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:522987428134:android:4f540ba734047bebe809e7",
+        "mobilesdk_app_id": "1:468871559624:android:4df1e3abbf2b99779ee8fd",
         "android_client_info": {
-          "package_name": "com.mighty.taxi_driver"
+          "package_name": "com.juanprogramador.navi_conductor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "522987428134-11u97j5lvcgpkqkl5gcpiq2j0esp9tct.apps.googleusercontent.com",
+          "client_id": "468871559624-t7do2malt574qpunrdf328m5o8u4ll41.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.mighty.taxi_driver",
-            "certificate_hash": "c31034732b82de893339d3eb0fb5802a043d3ef9"
+            "package_name": "com.juanprogramador.navi_conductor",
+            "certificate_hash": "ce7cf01af073d14b5e1802fff30da72b8e740663"
           }
         },
         {
-          "client_id": "522987428134-o1qf99m4cd1qh142bj16m48k8k7hn5lo.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mighty.taxi_driver",
-            "certificate_hash": "5601b206f2d23a37d33a384c31ca797ad81de2c6"
-          }
-        },
-        {
-          "client_id": "522987428134-q52ckp6ftrvb3r5qrhb2ph9ku76kbsus.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mighty.taxi_driver",
-            "certificate_hash": "dc6c6a30663b74645ac150b11135c75616616af1"
-          }
-        },
-        {
-          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_id": "468871559624-iqjhe9lfobv8bk8plheqni0964msae2m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+          "current_key": "AIzaSyA-y54q4fmUeNrHDn4i4RyUp33Plkxga5Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_id": "468871559624-iqjhe9lfobv8bk8plheqni0964msae2m.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "468871559624-f7011ng5f29k6nv3r1npbur0sudgracq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.juanprogramador.naviapp"
+              }
             }
           ]
         }
@@ -60,118 +52,43 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:522987428134:android:30da69f61ec15bcde809e7",
+        "mobilesdk_app_id": "1:468871559624:android:b05b3e745d49ef7f9ee8fd",
         "android_client_info": {
-          "package_name": "com.mighty.taxidriver"
+          "package_name": "com.juanprogramador.navi_rider"
         }
       },
       "oauth_client": [
         {
-          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+          "client_id": "468871559624-eoqu1vg4lkmhrqop1lqbbdi36og2db1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juanprogramador.navi_rider",
+            "certificate_hash": "ce7cf01af073d14b5e1802fff30da72b8e740663"
+          }
+        },
+        {
+          "client_id": "468871559624-iqjhe9lfobv8bk8plheqni0964msae2m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
+          "current_key": "AIzaSyA-y54q4fmUeNrHDn4i4RyUp33Plkxga5Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
+              "client_id": "468871559624-iqjhe9lfobv8bk8plheqni0964msae2m.apps.googleusercontent.com",
               "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:522987428134:android:08fd5fbd52aa8928e809e7",
-        "android_client_info": {
-          "package_name": "com.mighty.taxirider"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "522987428134-8f3nhelg4t0sfdeiulbu0t0js80gddup.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mighty.taxirider",
-            "certificate_hash": "c31034732b82de893339d3eb0fb5802a043d3ef9"
-          }
-        },
-        {
-          "client_id": "522987428134-ttollptis5hhjkp3qqft9jq2aenef0ip.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mighty.taxirider",
-            "certificate_hash": "dc6c6a30663b74645ac150b11135c75616616af1"
-          }
-        },
-        {
-          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
+            },
             {
-              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:522987428134:android:3b2ee3e15ad8fdc3e809e7",
-        "android_client_info": {
-          "package_name": "com.mighty.texi_booking"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "522987428134-9a9bllq9pksr3jr74gqco3ffav92s2j2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mighty.texi_booking",
-            "certificate_hash": "dc6c6a30663b74645ac150b11135c75616616af1"
-          }
-        },
-        {
-          "client_id": "522987428134-jgoriap34ho9uj0uplto1a0io5qdr2hd.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mighty.texi_booking",
-            "certificate_hash": "c31034732b82de893339d3eb0fb5802a043d3ef9"
-          }
-        },
-        {
-          "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBa17jfZtkv8Cmno-jECWVBKs5FYdrjq2U"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "522987428134-aq4d1ei9571vouqqovja59uj5hqi9bho.apps.googleusercontent.com",
-              "client_type": 3
+              "client_id": "468871559624-f7011ng5f29k6nv3r1npbur0sudgracq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.juanprogramador.naviapp"
+              }
             }
           ]
         }

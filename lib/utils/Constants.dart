@@ -3,7 +3,7 @@ import 'package:mqtt_client/mqtt_server_client.dart';
 
 import '../main.dart';
 
-const mAppName = 'Navi Driver';
+const mAppName = 'Navi Conductor';
 var errorThisFieldRequired = 'This field is required';
 
 const googleMapAPIKey = 'AIzaSyBPMkfHdJkfAQBF2NXzNwKxUrcaUxgJyM4';

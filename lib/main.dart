@@ -151,7 +151,7 @@ class _MyAppState extends State<MyApp> {
       return MaterialApp(
         navigatorKey: navigatorKey,
         debugShowCheckedModeBanner: false,
-        title: 'Mighty Driver',
+        title: 'Navi Conductor',
         theme: AppTheme.lightTheme,
         builder: (context, child) {
           return ScrollConfiguration(

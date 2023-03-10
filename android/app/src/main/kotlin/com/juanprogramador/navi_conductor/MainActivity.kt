@@ -1,4 +1,4 @@
-package com.mighty.taxidriver
+package com.juanprogramador.navi_conductor
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mighty.taxidriver">
+    package="com.juanprogramador.navi_conductor">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -9,14 +9,14 @@
 
 
    <application
-        android:label="Mighty Driver"
+        android:label="Navi Conductor"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         tools:replace="android:label">
 
        <meta-data
            android:name="com.google.android.geo.API_KEY"
-           android:value="ADD_YOUR_GOOGLE_MAP_KEY" />
+           android:value="AIzaSyBPMkfHdJkfAQBF2NXzNwKxUrcaUxgJyM4" />
 
         <activity
             android:name=".MainActivity"
